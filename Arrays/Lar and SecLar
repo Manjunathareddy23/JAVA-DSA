@@ -1,0 +1,22 @@
+public class Main
+{
+	public static void main(String[] args) {
+		int a[]={21,23,1,2,3};
+		int max=a[0];
+		int secL=Integer.MIN_VALUE;
+		for(int i =0;i<a.length;i++){
+		    if(a[i]>max){
+		        secL=max;
+		        max=a[i];
+		        
+		    }
+		    else if(a[i] > secL && a[i] != max){
+		        secL = a[i];
+		    }
+		   
+		    
+		}
+		System.out.println(max);
+		System.out.println(secL);
+	}
+}
