@@ -1,0 +1,26 @@
+public class Main
+{
+	public static void main(String[] args) {
+		int a[] = {21,23,1,2,3};
+		
+		int evc=0;
+		int odc=0;
+
+		for(int i=0;i<a.length;i++)
+		{
+		  if(a[i]%2==0){
+		      evc++;
+		  }
+		  else{
+		      odc++;
+		  }
+		 }
+		   System.out.println(evc);
+		   System.out.println(odc);
+		
+	    
+		
+
+		
+	}
+}
