@@ -1,0 +1,23 @@
+public class Main
+{
+	public static void main(String[] args) {
+		int a[] = {21,23,1,2,3};
+		
+		int temp;
+
+		for(int i=0;i<a.length;i++){
+		  for(int j=i;j<a.length;j++){
+		      if(a[i]>a[j]){ // > is placed ascending order ....< plased descending order..
+		          temp=a[j];
+		          a[j]=a[i];
+		          a[i]=temp;
+		      }
+		  }
+		    
+		}
+
+		for(int k : a){
+		    System.out.print(k + " ");
+		}
+	}
+}
